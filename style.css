@@ -6,16 +6,19 @@
   --Light-Grayish-Blue: hsl(240, 75%, 98%);
   --Light-Gray: hsl(0, 0%, 75%);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 p {
   font-size: 16px;
   color: var(--very-dark-Blue);
   line-height: 1.8;
 }
+
 h1,
 h2,
 h3,
@@ -35,16 +38,15 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  min-width: 100vw;
-}
-.container {
-  width: 100%;
-  background-image: url(images/bg-curve-desktop.svg); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/bg-curve-desktop.svg);
+  /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 header.top {
   display: flex;
   align-items: center;
@@ -52,19 +54,23 @@ header.top {
   padding: 2% 6%;
   text-align: center;
 }
+
 .nav-links {
   text-align: right;
 }
+
 header nav ul li {
   list-style: none;
   display: inline;
   padding: 8px 12px;
 }
+
 header nav ul li a {
   text-decoration: none;
   color: var(--very-Light-Gray);
   font-family: "Raleway", sans-serif;
 }
+
 .stores {
   display: flex;
   align-items: center;
@@ -73,25 +79,31 @@ header nav ul li a {
   padding: 2% 6%;
   margin: 60px 0;
 }
+
 article {
   flex: 1;
 }
+
 .stores img {
   max-width: 50%;
   flex: 1;
 }
+
 article p {
   margin: 20px 0;
 }
+
 article form {
   display: flex;
 }
+
 article input {
   padding: 10px;
   border: 1px solid grey;
   margin-right: 5px;
   width: 50%;
 }
+
 article button {
   background-color: var(--Bright-Blue);
   color: #fff;
@@ -100,6 +112,7 @@ article button {
   border: none;
   width: 50%;
 }
+
 /*------------productive----*/
 .productive {
   display: flex;
@@ -109,13 +122,16 @@ article button {
   padding: 2% 6%;
   background-image: url();
 }
+
 .productive article a {
   margin-bottom: 5px;
 }
+
 .productive img {
   max-width: 50%;
   flex: 1;
 }
+
 .card {
   background-color: #fff;
   margin: 10px 0;
@@ -123,28 +139,34 @@ article button {
   padding: 20px;
   border-radius: 5px;
 }
+
 .klye {
   display: flex;
   align-items: center;
 }
+
 .klye img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  
+
 }
+
 .burton {
-    text-align: left;
+  text-align: left;
 }
+
 .burton h5 {
-    margin: 0;
-    font-size: 1.2em; /* Adjust as needed */
+  margin: 0;
+  font-size: 1.2em;
+  /* Adjust as needed */
 }
 
 .burton p {
-    margin: 0;
-    color: #666;
+  margin: 0;
+  color: #666;
 }
+
 /*-------cta-------*/
 .cta {
   display: flex;
@@ -152,17 +174,21 @@ article button {
   color: #fff;
   padding: 4% 6%;
 }
+
 .cta p {
   color: #fff;
   text-align: left;
 }
+
 .cta article {
   flex: 1;
 }
+
 .cta form {
   flex: 1;
   flex-direction: column;
 }
+
 .cta input {
   padding: 15px;
   border-radius: 3px;
@@ -171,6 +197,7 @@ article button {
   width: 100%;
   margin-bottom: 10px;
 }
+
 .cta button {
   background-color: var(--Bright-Blue);
   color: #fff;
@@ -178,35 +205,43 @@ article button {
   border: none;
   width: 40%;
 }
+
 /*------footer----*/
 .footer {
   background-color: var(--Very-Dark-Blue);
   color: #fff;
   padding: 2% 6%;
 }
+
 .footer img {
   margin-bottom: 10px;
 }
+
 .bottom {
   display: flex;
 }
+
 .btm {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   flex: 2;
 }
+
 .bottom nav ul li {
   list-style: none;
   padding: 10px;
   color: #fff;
 }
+
 .bottom nav ul li i {
   margin-right: 10px;
 }
+
 .icons {
   justify-content: space-between;
   flex: 1;
 }
+
 .icons i {
   border: 2px solid #fff;
   border-radius: 50%;
@@ -222,22 +257,28 @@ article button {
     align-items: center;
     text-align: center;
   }
+
   header.top {
     text-align: center;
   }
+
   .nav-links ul {
     flex-direction: column;
     text-align: center;
   }
+
   .stores {
     flex-direction: column;
   }
+
   .productive {
     flex-direction: column;
   }
+
   .cta {
     flex-direction: column;
   }
+
   .bottom {
     display: flex;
     flex-direction: column;
